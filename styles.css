@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    border: 1px solid black;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 40vw;
+    height: 50vh;
+}
+
+.block{
+    transition: all 400ms;
+}
+
+.block:hover{
+    background-color: blue;
+}
